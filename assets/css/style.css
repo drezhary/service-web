@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+
+/* Navigation */
+header {
+    background-color: antiquewhite;
+}
+
+
+nav {
+    display: flex;
+    background-color: aquamarine;
+    height: 75px;
+}
+
+.logo {
+    display: flex;
+}
+
+nav .nav-link {
+    flex: 1;
+    align-content: center;
+    
+}
+
+nav .nav-link ul {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+.contact-button {
+    align-content: center;
+    padding: 5px;
+}
+
+/* Hero */
+
+.hero {
+    height: 720px;
+    align-content: center;
+    text-align: center;
+    background-image: url(/assets/img/1.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.hero .hero-content {
+    margin: 0 20% 0 20%;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.hero blockquote {
+    margin-bottom: 32px;
+}
+
+/* Card */
